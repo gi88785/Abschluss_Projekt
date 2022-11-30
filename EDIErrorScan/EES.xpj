@@ -1,0 +1,51 @@
+[PROJECT]
+    TARGET_DIR    = .
+    VERSION       = 2.3
+    EES.xpj
+
+[EES.xpj]
+    EDI Error Scan.exe
+
+[EDI Error Scan.exe]
+    COMPILE              = xpp
+    COMPILE_FLAGS        = /wi /wl /wu /q /w
+    DEBUG                = yes
+    GUI                  = yes
+    LINKER               = alink
+    LINK_FLAGS           = 
+    RC_COMPILE           = arc
+    RC_FLAGS             = 
+    INTERMEDIATE_DEBUG   = .debug
+    INTERMEDIATE_RELEASE = .release
+    WORKINGDIR           = E:\xbase\cctop\Fehlerscan\EDIErrorScan
+// $START-AUTODEPEND
+    gra.ch
+    common.ch
+    font.ch
+    deldbe.ch
+    xbtsys.ch
+    .\ees.ch
+    collat.ch
+    sql.ch
+    std.ch
+    xbp.ch
+    set.ch
+    appevent.ch
+    natmsg.ch
+    fileio.ch
+    get.ch
+    dmlb.ch
+    prompt.ch
+    ..\..\..\xbaselib\comp.ch
+    memvar.ch
+    cxTestEdi.obj
+    EDIErrorScan.obj
+    EES_FileOperation.obj
+    ScanMenu.obj
+// $STOP-AUTODEPEND
+    cxTestEdi.prg
+    EDIErrorScan.prg
+    EES.ch
+    EES_FileOperation.prg
+    ScanMenu.prg
+

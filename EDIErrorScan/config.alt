@@ -1,0 +1,18 @@
+!#---------------------------------------------------------
+!# config.cod
+!# 
+!# Sollen Aenderung wirksam in die Zuordnung uebernommen werden,
+!# muss die Datei die Endung "cod" bekommen. Beim naechsten Programmaufruf,
+!# wird die Tabelle neuerstellt.
+!# 
+!# 
+!# Letzte Aenderung:    19.05.2022 MB
+!# 
+!# Aufbau:
+!#    1. Empfaenger GLN
+!#    2. Name des Empfaengers
+!#    3. Nachrichtenart
+!#    4. Name der Vorlage im Vorlagenordner
+!#---------------------------------------------------------
+4011750000000,Decor-Union,INVOIC,DecorUnion_INVOIC.template
+4047387000007,Norma,INVOIC,Norma_INVOIC.template
