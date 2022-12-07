@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitelist name="Standard">
+	<site floating="1" left="792" top="713" width="240" height="165">
+		<zone kind="PANEL" id="MainForm.ModulesDockPanel" visible="0"/>
+	</site>
+	<site floating="1" left="792" top="713" width="240" height="165">
+		<zone kind="PANEL" id="MainForm.WatchDockPanel" visible="0"/>
+	</site>
+	<site id="MainForm.MainSite">
+		<zone kind="HORZ">
+			<zone kind="VERT" size="213" dsize="0.226595744680851">
+				<zone kind="TABS" size="932" dsize="1">
+					<zone kind="PANEL" id="MainForm.ProjectManagerDockPanel" visible="0"/>
+					<zone kind="PANEL" id="MainForm.CodeExplorerDockPanel" visible="0"/>
+				</zone>
+				<zone kind="PANEL" id="MainForm.CallstackDockPanel" visible="0" size="165" dsize="0.364238410596026"/>
+			</zone>
+			<zone kind="VERT" size="1908" dsize="1">
+				<zone kind="TABS" size="165" dsize="0.369127516778524">
+					<zone kind="PANEL" id="MainForm.VariablesDockPanel" visible="0"/>
+					<zone kind="PANEL" id="MainForm.ThreadsDockPanel" visible="0"/>
+					<zone kind="PANEL" id="MainForm.BreakpointsDockPanel" visible="0"/>
+				</zone>
+				<zone kind="TABS" activetab="1" size="770" dsize="0.823529411764706" isspace="1">
+					<zone kind="PANEL" id="MainForm.VXHTMLWindowDockPanel" visible="1"/>
+					<zone kind="PANEL" id="MainForm.frmClipperEditWindowDockPanel" visible="1"/>
+					<zone kind="PANEL" id="MainForm.OutputWindowDockPanel" visible="1"/>
+				</zone>
+				<zone kind="TABS" activetab="0" size="165" dsize="0.176470588235294">
+					<zone kind="PANEL" id="MainForm.IDEMessageFormDockPanel" visible="1"/>
+					<zone kind="PANEL" id="MainForm.IDESearchResultFormDockPanel" visible="1"/>
+					<zone kind="PANEL" id="MainForm.IDEErrorCallstackFormDockPanel" visible="1"/>
+					<zone kind="PANEL" id="MainForm.CommandWindowDockPanel" visible="1"/>
+				</zone>
+			</zone>
+			<zone kind="PANEL" id="MainForm.ObjectInspectorDockPanel" visible="0" size="240" dsize="0.119521912350598"/>
+		</zone>
+	</site>
+	<description>Vorgabe-Fensterlayout für das Entwickeln von Anwendungen. Dieses Fensterlayout kann nicht gelöscht werden.</description>
+	<Variables style="3" attributes="100" sortorder="0"/>
+	<ObjectInspector style="3" attributes=""/>
+	<Threads style="3" attributes="14;14;14;9;20;24" sortorder="19"/>
+	<Breakpoints style="3" attributes="10;30;20;30;10" sortorder="0"/>
+	<Callstack style="3" attributes="30;69"/>
+	<Watch style="3" attributes="100" sortorder="0"/>
+	<Modules style="3" attributes=""/>
+	<ProjectManager style="3" attributes=""/>
+	<CodeExplorer style="3" attributes=""/>
+	<OutputWindow style="3" attributes=""/>
+	<CommandWindow style="3" attributes=""/>
+	<VXHTMLWindow style="3" attributes=""/>
+	<ExpressionInspector style="3" attributes=""/>
+</sitelist>

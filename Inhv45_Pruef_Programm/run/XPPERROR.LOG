@@ -1,0 +1,34 @@
+
+------------------------------------------------------------------------------
+FEHLERPROTOKOLL von "E:\xbase\Abschluss_Projekt\Inhv45_Pruef_Programm\run\Inhv45_Pruef_Programm.exe" Datum: 07.12.2022 14:21:11
+
+Xbase++ Version     : Xbase++ (R) Version 2.00.1354
+Betriebssystem      : Windows 10 2009 Build 19044
+------------------------------------------------------------------------------
+oError:args         :
+          -> VALTYPE: O CLASS: XbpPushButton
+          -> VALTYPE: U VALUE: NIL
+          -> VALTYPE: U VALUE: NIL
+          -> VALTYPE: A VALUE: {10, 20}
+          -> VALTYPE: A VALUE: {80, 30}
+          -> VALTYPE: U VALUE: NIL
+          -> VALTYPE: U VALUE: NIL
+oError:canDefault   : N
+oError:canRetry     : N
+oError:canSubstitute: J
+oError:cargo        : NIL
+oError:description  : Anwendung wurde nicht mit /PM:PM-Schalter gelinkt
+oError:filename     : 
+oError:genCode      :        133
+oError:operation    : 
+oError:osCode       :          0
+oError:severity     :          2
+oError:subCode      :       4314
+oError:subSystem    : BASE
+oError:thread       :          1
+oError:tries        :          0
+------------------------------------------------------------------------------
+CALLSTACK:
+------------------------------------------------------------------------------
+Aufgerufen von XBPPUSHBUTTON:INIT(1535)
+Aufgerufen von MAIN(14)
